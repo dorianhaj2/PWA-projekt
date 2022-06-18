@@ -1,0 +1,139 @@
+.logo{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav{
+    position: sticky;
+    border-top: 0.4rem solid #026b9c;
+    box-shadow: 0 0.4rem 0.4rem 0 rgb(0 0 0 / 4%);
+    top: 0px;
+    z-index: 1000;
+    background-color: white;
+}
+
+.nav {
+    width: 1000px;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+  }
+  
+.nav li {
+    float: left;
+  }
+  
+.nav li a {
+    display: block;
+    color: #2a303b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: din-condensed, sans-serif;
+  }
+  
+.nav li a:hover:not(.active) {
+    color: #026b9c;
+  }
+  
+.active {
+    background-color: #f5f6f8;
+}
+
+header{
+    background-color: white;
+}
+
+body{
+    background-color:#f5f6f8;
+}
+
+footer{   
+    width: 100%;
+    bottom: 0;
+    color: #e8eaee; 
+    background-color: #2a303b;
+    position: relative;
+}
+
+footer p{
+    margin: 10px;
+    
+}
+
+.content{
+    margin: auto;
+    padding-top: 40px;
+    width: 1000px;
+    background-color: white;
+}
+
+
+
+.category{
+    margin: auto;
+    width: 800px;
+    border-top: 0.2rem solid #2a303b;
+}
+
+.content h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.article{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.article h2{
+    font-size: 16px;
+    font-weight: bold;
+    color: #2a303b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.article img{
+    width:100%;
+}
+
+.row{
+    max-width: 100%;
+}
+
+.forma{
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.naslov{
+    margin: auto;
+    width: 800px;
+    display: block;
+}
+
+.slika{
+    margin: auto;
+    width: 800px;
+    
+}
+
+section img{
+    width: 100%;
+}
+
+.bojaPoruke{
+    color:red;
+}
